@@ -4,14 +4,8 @@
 <img src="https://img.shields.io/badge/Project-Lab%20Notebook%20AI%20Assistant-0A66C2?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Focus-Agentic%20AI%20%7C%20Safety%20%7C%20Explainability-111827?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Stack-React%2019%20%2B%20NestJS%20%2B%20MySQL-2563EB?style=for-the-badge" />
-<br/>
-<img src="https://img.shields.io/badge/Azure%20OpenAI-LLM-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-<img src="https://img.shields.io/badge/Azure%20AI%20Foundry-Orchestration-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-<img src="https://img.shields.io/badge/Azure%20Vision-Image%20AI-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-<br/>
-<img src="https://img.shields.io/badge/Azure%20Speech-STT%2FTTS-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-<img src="https://img.shields.io/badge/Azure%20Document%20Intelligence-Docs%20AI-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-<img src="https://img.shields.io/badge/Azure%20Blob%20Storage-Files-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+
+
 
 # Sapient Lab
 
