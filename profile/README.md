@@ -4,6 +4,12 @@
 <img src="https://img.shields.io/badge/Project-Lab%20Notebook%20AI%20Assistant-0A66C2?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Focus-Agentic%20AI%20%7C%20Safety%20%7C%20Explainability-111827?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Stack-React%2019%20%2B%20NestJS%20%2B%20MySQL-2563EB?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Azure%20OpenAI-Enabled-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure%20AI%20Foundry-Enabled-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure%20Vision-Enabled-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure%20Speech-Enabled-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure%20Document%20Intelligence-Enabled-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure%20Blob%20Storage-Enabled-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
 
 # Sapient Lab
 
@@ -114,6 +120,19 @@ sequenceDiagram
 | External Benchmark | OpenML (`/api/openml/*`) |
 | Storage | Azure Blob Storage |
 
+## Azure Services In Use
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Azure%20OpenAI-LLM%20Reasoning-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure%20AI%20Foundry-Agent%20Orchestration-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure%20Vision-Image%20Analysis-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure%20Speech-Speech%20to%20Text-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure%20Document%20Intelligence-Document%20Parsing-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure%20Blob%20Storage-File%20Storage-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+
+</div>
+
 ---
 
 ## Project Repositories (Current Workspace)
@@ -148,6 +167,7 @@ sequenceDiagram
 |---|---|
 | Franco Mario Ayala Quispe | AI / Backend / Integration |
 | Alex David Tola Julian | Frontend / UX / Product Flow |
+| Maya Celina Cadiz Quispe | Product / Research / Presentation |
 | Jhamil Calixto Mamani Quea | Data / Validation / Testing |
 | Alexander Jonathan Villarroel Torrico | Architecture / Platform / Delivery |
 
