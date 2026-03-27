@@ -23,6 +23,7 @@ sin reemplazar el juicio cientifico humano.
 <div align="center">
 
 [![Slides](https://img.shields.io/badge/Slides-Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)](https://www.canva.com/design/DAHEuqnjrpc/6jHkQVtlXaC9SG2pfgArTg/edit?utm_content=DAHEuqnjrpc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sapientlab.vercel.app/)
 [![Frontend](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://github.com/Sapient-Lab/Frontend)
 [![Backend](https://img.shields.io/badge/Backend-NestJS%20%2B%20OpenML-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://github.com/Sapient-Lab/back_end)
 
