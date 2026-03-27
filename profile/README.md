@@ -27,10 +27,20 @@ sin reemplazar el juicio cientifico humano.
 <div align="center">
 
 [![Slides](https://img.shields.io/badge/Slides-Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)](https://www.canva.com/design/DAHEuqnjrpc/6jHkQVtlXaC9SG2pfgArTg/edit?utm_content=DAHEuqnjrpc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-[![Frontend](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)](../../Frontend)
-[![Backend](https://img.shields.io/badge/Backend-NestJS%20%2B%20OpenML-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](../../back_end)
+[![Frontend](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://github.com/Sapient-Lab/Frontend)
+[![Backend](https://img.shields.io/badge/Backend-NestJS%20%2B%20OpenML-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://github.com/Sapient-Lab/back_end)
 
 </div>
+
+---
+
+## Project Description
+
+Sapient Lab es un asistente de cuaderno de laboratorio basado en agentes que ayuda a equipos de investigacion a interpretar protocolos,
+analizar resultados experimentales y proponer siguientes pasos explicados, manteniendo seguridad estricta y control humano en la decision final.
+
+El sistema integra analisis multimodal (texto, CSV, imagen y voz), evidencia externa con OpenML y una arquitectura de IA responsable
+orientada a transparencia, trazabilidad y limites de uso en escenarios sensibles.
 
 ---
 
@@ -135,22 +145,29 @@ sequenceDiagram
 
 ---
 
-## Project Repositories (Current Workspace)
+## Project Repositories (For Judges)
 
-- Frontend: [Frontend](../../Frontend)
-- Backend: [back_end](../../back_end)
-- API and technical docs: [back_end/data/Document](../../back_end/data/Document)
+- Frontend: https://github.com/Sapient-Lab/Frontend
+- Backend: https://github.com/Sapient-Lab/back_end
+- API and technical docs (workspace reference): [back_end/data/Document](../../back_end/data/Document)
 
 ---
 
-## Evaluation Alignment
+## Judge Evaluation Matrix (Semana del 30 de marzo de 2026)
 
-| Criterion | Implementation Evidence |
-|---|---|
-| Explainability | Recomendaciones con justificacion visible en notebook y flujo de insercion limpia (`extract-insertable`). |
-| Safe agent design | Capas de safety y filtrado para dominios sensibles; backend con endpoints de analisis de seguridad. |
-| Data/model orchestration | Orquestacion de agentes + contexto de proyecto + documentos + OpenML. |
-| Human-in-the-loop | El sistema asiste, no reemplaza; la decision final queda en el investigador. |
+| Criterio | Ponderacion | Como lo cumple Sapient Lab |
+|---|---:|---|
+| Rendimiento | 25% | Arquitectura frontend/backend separada con APIs dedicadas para chat, analisis y notebook; flujo de insercion limpia reduce ruido y acelera trabajo de laboratorio; soporte de contexto por proyecto para respuestas mas relevantes. |
+| Innovacion | 25% | Asistente de notebook cientifico con arquitectura multiagente, razonamiento explicable, analisis multimodal y enriquecimiento con OpenML para evidencia comparativa en recomendaciones. |
+| Amplitud de los servicios de Azure utilizados | 25% | Uso combinado de Azure OpenAI, Azure AI Foundry, Azure Vision, Azure Speech, Azure Document Intelligence y Azure Blob Storage en un flujo unico orientado a investigacion. |
+| IA responsable | 25% | Guardrails y filtrado para contenido sensible, limites para evitar asesoramiento no permitido, explicaciones transparentes y enfoque human-in-the-loop para no reemplazar el juicio cientifico. |
+
+### Evidencia tecnica para jueces
+
+- Agentes IA y notebook: endpoints `/api/ai/*` en backend.
+- Seguridad: modulo safety (`/api/safety/analyze`) y politicas de filtrado.
+- OpenML: endpoints `/api/openml/*` para datasets, tareas, runs y evaluaciones.
+- Frontend de evaluacion: flujo `/app/lab`, `/app/protocolos`, `/app/docs`, `/app/equipo`.
 
 ---
 
