@@ -22,7 +22,7 @@ sin reemplazar el juicio cientifico humano.
 
 ---
 
-## Judge Quick Access
+## Acceso Rapido para Jurados
 
 <div align="center">
 
@@ -34,7 +34,7 @@ sin reemplazar el juicio cientifico humano.
 
 ---
 
-## Project Description
+## Descripcion del Proyecto
 
 Sapient Lab es un asistente de cuaderno de laboratorio basado en agentes que ayuda a equipos de investigacion a interpretar protocolos,
 analizar resultados experimentales y proponer siguientes pasos explicados, manteniendo seguridad estricta y control humano en la decision final.
@@ -44,7 +44,7 @@ orientada a transparencia, trazabilidad y limites de uso en escenarios sensibles
 
 ---
 
-## Challenge Statement
+## Enunciado del Reto
 
 Los investigadores quieren ayuda para razonar sobre experimentos sin reemplazar el juicio cientifico.
 El sistema debe interpretar protocolos, sugerir variaciones para siguientes pasos,
@@ -55,7 +55,7 @@ filtrado de contenido y control de asesoramiento no permitido.
 
 ---
 
-## What We Built
+## Que Construimos
 
 **Sapient Lab** integra una experiencia de cuaderno cientifico asistido por agentes con:
 
@@ -67,20 +67,20 @@ filtrado de contenido y control de asesoramiento no permitido.
 
 ---
 
-## Architecture Overview
+## Arquitectura General
 
 ```mermaid
 flowchart LR
-	R[Research Team] --> FE[Frontend: React + Vite]
+	R[Equipo de Investigacion] --> FE[Frontend: React + Vite]
 	FE -->|/api| BE[Backend: NestJS]
 
-	BE --> AO[Agent Orchestrator]
-	AO --> PI[Protocol Interpreter]
-	AO --> MA[Multimodal Analyzer]
-	AO --> RV[Variation Recommender]
-	AO --> SG[Safety Guardrails]
-	AO --> EX[Explainability Composer]
-	AO --> OM[OpenML Connector]
+	BE --> AO[Orquestador de Agentes]
+	AO --> PI[Interprete de Protocolos]
+	AO --> MA[Analizador Multimodal]
+	AO --> RV[Recomendador de Variaciones]
+	AO --> SG[Guardrails de Seguridad]
+	AO --> EX[Compositor de Explicabilidad]
+	AO --> OM[Conector OpenML]
 
 	OM --> OAPI[(OpenML API)]
 	BE --> DB[(MySQL)]
@@ -89,71 +89,70 @@ flowchart LR
 
 ---
 
-## AI Agent Interaction (Judge View)
+## Interaccion de Agentes de IA (Vista para Jurados)
 
 ```mermaid
 sequenceDiagram
-	participant User as Researcher
+	participant User as Investigador
 	participant UI as Frontend Notebook
-	participant API as Backend Orchestrator
-	participant PI as Protocol Agent
-	participant MM as Multimodal Agent
-	participant OM as OpenML Agent
-	participant SG as Safety Agent
-	participant EX as Explainability Agent
+	participant API as Orquestador Backend
+	participant PI as Agente de Protocolo
+	participant MM as Agente Multimodal
+	participant OM as Agente OpenML
+	participant SG as Agente de Seguridad
+	participant EX as Agente de Explicabilidad
 
-	User->>UI: Experimental question
+	User->>UI: Pregunta experimental
 	UI->>API: POST /api/ai/notebook/chat
-	API->>PI: Interpret protocol context
-	API->>MM: Analyze text/CSV/image
-	API->>OM: Retrieve benchmark evidence
-	PI-->>API: Protocol reasoning
-	MM-->>API: Data findings
-	OM-->>API: Comparable OpenML metadata
-	API->>SG: Enforce safety and policy filters
-	SG-->>API: Allowed response constraints
-	API->>EX: Build justified recommendation
-	EX-->>UI: Clear rationale + next steps
-	UI-->>User: Human-in-the-loop decision support
+	API->>PI: Interpretar contexto del protocolo
+	API->>MM: Analizar texto/CSV/imagen
+	API->>OM: Recuperar evidencia de benchmark
+	PI-->>API: Razonamiento del protocolo
+	MM-->>API: Hallazgos de datos
+	OM-->>API: Metadata comparable de OpenML
+	API->>SG: Aplicar filtros de seguridad y politicas
+	SG-->>API: Restricciones de respuesta permitida
+	API->>EX: Construir recomendacion justificada
+	EX-->>UI: Razonamiento claro + siguientes pasos
+	UI-->>User: Soporte a la decision human-in-the-loop
 ```
 
 ---
 
-## Technology Stack
+## Stack Tecnologico
 
-| Layer | Technologies |
+| Capa | Tecnologias |
 |---|---|
 | Frontend | React 19, TypeScript, Vite, React Router, Framer Motion |
 | Backend | NestJS, Node.js, TypeScript, class-validator |
-| Data | MySQL, project context documents, experiment notes |
-| AI Services | Azure OpenAI/Foundry, Azure Vision, Azure Speech, Azure Document Intelligence |
-| External Benchmark | OpenML (`/api/openml/*`) |
-| Storage | Azure Blob Storage |
+| Datos | MySQL, documentos de contexto de proyecto, notas de experimento |
+| Servicios de IA | Azure OpenAI/Foundry, Azure Vision, Azure Speech, Azure Document Intelligence |
+| Benchmark externo | OpenML (`/api/openml/*`) |
+| Almacenamiento | Azure Blob Storage |
 
-## Azure Services In Use
+## Servicios de Azure en Uso
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Azure%20OpenAI-LLM%20Reasoning-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-<img src="https://img.shields.io/badge/Azure%20AI%20Foundry-Agent%20Orchestration-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-<img src="https://img.shields.io/badge/Azure%20Vision-Image%20Analysis-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-<img src="https://img.shields.io/badge/Azure%20Speech-Speech%20to%20Text-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-<img src="https://img.shields.io/badge/Azure%20Document%20Intelligence-Document%20Parsing-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-<img src="https://img.shields.io/badge/Azure%20Blob%20Storage-File%20Storage-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure%20OpenAI-Razonamiento%20LLM-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure%20AI%20Foundry-Orquestacion%20de%20Agentes-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure%20Vision-Analisis%20de%20Imagen-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure%20Speech-Voz%20a%20Texto-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure%20Document%20Intelligence-Analisis%20Documental-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure%20Blob%20Storage-Almacenamiento%20de%20Archivos-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
 
 </div>
 
 ---
 
-## Project Repositories (For Judges)
+## Repositorios del Proyecto (Para Jurados)
 
 - Frontend: https://github.com/Sapient-Lab/Frontend
 - Backend: https://github.com/Sapient-Lab/back_end
-- API and technical docs (workspace reference): [back_end/data/Document](../../back_end/data/Document)
 
 ---
 
-## Judge Evaluation Matrix (Semana del 30 de marzo de 2026)
+## Matriz de Evaluacion para Jurados (Semana del 30 de marzo de 2026)
 
 | Criterio | Ponderacion | Como lo cumple Sapient Lab |
 |---|---:|---|
@@ -171,16 +170,16 @@ sequenceDiagram
 
 ---
 
-## Demo Material
+## Material de Demo
 
 - Slides: https://www.canva.com/design/DAHEuqnjrpc/6jHkQVtlXaC9SG2pfgArTg/edit?utm_content=DAHEuqnjrpc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 - Video: En preparacion
 
 ---
 
-## Team
+## Equipo
 
-| Member | Role |
+| Integrante | Rol |
 |---|---|
 | Franco Mario Ayala Quispe | AI / Backend / Integration |
 | Alex David Tola Julian | Frontend / UX / Product Flow |
@@ -190,7 +189,7 @@ sequenceDiagram
 
 ---
 
-## Contact
+## Contacto
 
 Para evaluacion tecnica y walkthrough, usar Issues o Discussions en este espacio de trabajo.
 
