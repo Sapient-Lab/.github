@@ -67,12 +67,6 @@ filtrado de contenido y control de asesoramiento no permitido.
 - soporte de evidencia externa con OpenML,
 - **trazabilidad e inmutabilidad via blockchain**: cada resultado experimental relevante se ancla en la **Somnia Network** como NFT con metadatos en **IPFS (Pinata)**, garantizando auditabilidad publica y verificable por cualquier tercero sin intermediarios.
 
-<div align="center">
-
-[![Ver Contrato NFT en Somnia](https://img.shields.io/badge/Contrato%20NFT%20ERC--721-Auditar%20en%20Somnia%20Explorer-1ABC9C?style=for-the-badge&logo=ethereum&logoColor=white)](https://shannon-explorer.somnia.network/token/0xE16EcfeE6067B4918AF3eAF09Dd134FFdaE92D4D)
-[![Repo Blockchain](https://img.shields.io/badge/Repo%20Backend%20Blockchain-NestJS%20%2B%20IPFS%20%2B%20Somnia-6C3483?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sapient-Lab/Backend-Blockchain)
-
-</div>
 
 ---
 
