@@ -196,6 +196,23 @@ sequenceDiagram
 
 ---
 
+<div align="center">
+  <img src="img/escudo_info.webp" alt="Carrera de Informatica UMSA" height="120" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="img/EscudoFCPN.webp" alt="Facultad de Ciencias Puras y Naturales FCPN" height="120" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="img/Logo_Umsa.png" alt="Universidad Mayor de San Andres UMSA" height="120" />
+</div>
+
+<div align="center">
+
+**La Paz — Bolivia**<br/>
+Universidad Mayor de San Andrés<br/>
+Facultad de Ciencias Puras y Naturales<br/>
+Carrera de Informática
+
+</div>
+
 ## Equipo
 
 | Integrante | Rol |
