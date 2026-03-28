@@ -76,7 +76,7 @@ filtrado de contenido y control de asesoramiento no permitido.
 
 ---
 
-## Mapa de Estructura
+## Diagrama de nuestra arquitectura
 
 <div align="center">
   <img src="img/sapient1_1_page-0001.webp" alt="Sapient Lab - Platform Architecture" width="100%" />
@@ -210,6 +210,14 @@ sequenceDiagram
 
 ## Contacto
 
-Para evaluacion tecnica y walkthrough, usar Issues o Discussions en este espacio de trabajo.
+* Franco Mario Ayala Quispe fa8050386@gmail.com
+
+* Alex David Tola Julian alextola740@gmail.com	 
+
+* Maya Celina Cadiz Quispe maya.cadizq@gmail.com
+
+* Jhamil Calixto Mamani Quea jhamilquea@gmail.com	
+
+* Alexander Jonathan Villarroel Torrico	alexvillarroeltorrico@gmail.com
 
 
