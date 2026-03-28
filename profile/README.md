@@ -23,7 +23,7 @@ sin reemplazar el juicio cientifico humano.
 <div align="center">
 
 [![Video del Proyecto](https://img.shields.io/badge/Video%20del%20Proyecto-Ver%20Ahora-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://canva.link/jdn8l5sbb3f1nsf)
-[![Slides](https://img.shields.io/badge/Slides-Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)](https://www.canva.com/design/DAHEuqnjrpc/6jHkQVtlXaC9SG2pfgArTg/edit?utm_content=DAHEuqnjrpc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+[![Slides](https://img.shields.io/badge/Diapositivas-Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)](https://www.canva.com/design/DAHEuqnjrpc/6jHkQVtlXaC9SG2pfgArTg/edit?utm_content=DAHEuqnjrpc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sapientlab.vercel.app/)
 [![Backend API](https://img.shields.io/badge/Backend%20API-Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://sapient-lab-api-fkadhxgthve3hycv.eastus-01.azurewebsites.net/)
 [![Frontend](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://github.com/Sapient-Lab/Frontend)
@@ -63,6 +63,14 @@ filtrado de contenido y control de asesoramiento no permitido.
 - recomendaciones explicadas para siguientes pasos,
 - controles de seguridad y filtrado,
 - soporte de evidencia externa con OpenML.
+
+---
+
+## Mapa de Estructura
+
+<div align="center">
+  <img src="img/sapient1_1_page-0001.webp" alt="Sapient Lab - Platform Architecture" width="100%" />
+</div>
 
 ---
 
