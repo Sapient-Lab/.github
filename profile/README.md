@@ -28,6 +28,8 @@ sin reemplazar el juicio cientifico humano.
 [![Backend API](https://img.shields.io/badge/Backend%20API-Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://sapient-lab-api-fkadhxgthve3hycv.eastus-01.azurewebsites.net/)
 [![Frontend](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://github.com/Sapient-Lab/Frontend)
 [![Backend](https://img.shields.io/badge/Backend-NestJS%20%2B%20OpenML-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://github.com/Sapient-Lab/back_end)
+[![Backend Blockchain](https://img.shields.io/badge/Backend%20Blockchain-Somnia%20%2B%20IPFS-6C3483?style=for-the-badge&logo=ethereum&logoColor=white)](https://github.com/Sapient-Lab/Backend-Blockchain)
+[![Contrato en Blockchain](https://img.shields.io/badge/Contrato%20NFT-Auditarlo%20en%20Somnia-1ABC9C?style=for-the-badge&logo=ethereum&logoColor=white)](https://shannon-explorer.somnia.network/token/0xE16EcfeE6067B4918AF3eAF09Dd134FFdaE92D4D)
 
 </div>
 
@@ -62,7 +64,15 @@ filtrado de contenido y control de asesoramiento no permitido.
 - analisis multimodal (texto, CSV, imagen, voz),
 - recomendaciones explicadas para siguientes pasos,
 - controles de seguridad y filtrado,
-- soporte de evidencia externa con OpenML.
+- soporte de evidencia externa con OpenML,
+- **trazabilidad e inmutabilidad via blockchain**: cada resultado experimental relevante se ancla en la **Somnia Network** como NFT con metadatos en **IPFS (Pinata)**, garantizando auditabilidad publica y verificable por cualquier tercero sin intermediarios.
+
+<div align="center">
+
+[![Ver Contrato NFT en Somnia](https://img.shields.io/badge/Contrato%20NFT%20ERC--721-Auditar%20en%20Somnia%20Explorer-1ABC9C?style=for-the-badge&logo=ethereum&logoColor=white)](https://shannon-explorer.somnia.network/token/0xE16EcfeE6067B4918AF3eAF09Dd134FFdaE92D4D)
+[![Repo Blockchain](https://img.shields.io/badge/Repo%20Backend%20Blockchain-NestJS%20%2B%20IPFS%20%2B%20Somnia-6C3483?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sapient-Lab/Backend-Blockchain)
+
+</div>
 
 ---
 
@@ -155,7 +165,9 @@ sequenceDiagram
 ## Repositorios del Proyecto (Para Jurados)
 
 - Frontend: https://github.com/Sapient-Lab/Frontend
-- Backend: https://github.com/Sapient-Lab/back_end
+- Backend principal: https://github.com/Sapient-Lab/back_end
+- Backend Blockchain (IPFS + NFT + Somnia): https://github.com/Sapient-Lab/Backend-Blockchain
+- Contrato NFT ERC-721 en Somnia Explorer: https://shannon-explorer.somnia.network/token/0xE16EcfeE6067B4918AF3eAF09Dd134FFdaE92D4D
 
 ---
 
